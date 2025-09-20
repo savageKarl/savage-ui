@@ -3,7 +3,9 @@
 	"version": "0.0.0",
 	"description": "",
 	"main": "index.js",
-	"scripts": {},
+	"scripts": {
+		"build:exports": "tsx ./scripts/generate-exports.ts"
+	},
 	"keywords": [],
 	"author": "",
 	"packageManager": "pnpm@10.15.0"

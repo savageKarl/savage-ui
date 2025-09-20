@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "ESNext",
+		"moduleResolution": "bundler",
+		"jsx": "preserve",
+		"strict": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"allowJs": true,
+		"lib": ["DOM", "DOM.Iterable", "ESNext"],
+		"baseUrl": ".",
+		"paths": {
+			"@savage-ui/ui": ["./packages/ui/src"],
+			"@savage-ui/ui/*": ["./packages/ui/src/*"]
+		}
+	}
+}
